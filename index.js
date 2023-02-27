@@ -12,7 +12,7 @@ app.use('/', async (req, res) => {
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded'
       },
-      body: `client_id=708865567383723&client_secret=5b8d7e24b6e6ba4746717f3f47900f69&grant_type=authorization_code&redirect_uri=https://insta-post.vercel.app/&code=${code}`
+      body: `client_id=708865567383723&client_secret=5b8d7e24b6e6ba4746717f3f47900f69&grant_type=authorization_code&redirect_uri=https://insta-post-ts.vercel.app/&code=${code}`
     });
     const data = await response.json();
 
